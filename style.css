@@ -1,0 +1,54 @@
+.card {
+    width: 400px;
+    margin: 10px;
+    background-color: white;
+    border: solid 1px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0, 0.1);
+    float: left;
+    margin: 30px 30px 30px 30px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.image-placeholder, .image-placeholder2, .image-placeholder3 {
+    width: 400px;
+    height: 250px;
+}
+
+.image-placeholder {
+    background-image: url('./images/charizard\ pixel.png');
+}
+
+.image-placeholder2 {
+    background-image: url('./images/mew\ pixel.png');
+}
+
+.image-placeholder3 {
+    background-image: url('./images/pikachu\ pixel.png');
+}
+
+.expandMoreContent {
+    height: 40px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    position: relative;
+}
+
+.expandMoreContent.expand-active {
+    height: auto;
+    transition: height 0.5s ease-in-out;
+}
+
+.expandMoreHolder {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.btn-expand {
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0, 0.2);
+    display: inline-block;
+}
